@@ -2,7 +2,7 @@
 
 ### **Objetivo Principal**  
 
-Desenvolver um pipeline ETL automatizado para consumir dados da **API da Coinbase** (preço de diversas criptomoedas em USD) e da **API CurrencyFreaks** (extrair cotação USD-BRL), transformar os dados (convertendo o valor para Real Brasileiro), armazenar em **Delta Tables** no Databricks usando **Unity Catalog** e cria um dashboard interativo para visualização.
+Desenvolver um pipeline ETL automatizado para consumir dados da **API da Coinbase** (informa preço de diversas criptomoedas em USD) e da **API CurrencyFreaks** (informa em tempo real cotação USD-BRL) e após transformar, armazenar em **Delta Tables** no Databricks usando **Unity Catalog**. Também cria um dashboard interativo para visualização.
 
 1. **Extração de Dados**
    - Extrair preço atual do Bitcoin em USD da API Coinbase
